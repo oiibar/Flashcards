@@ -53,6 +53,9 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  color: #fff;
+}
 .wrapper {
   font-family: "Roboto";
   text-align: center;

@@ -1,6 +1,6 @@
 <!-- src/components/FlashcardsList.vue -->
 <template>
-  <div>
+  <div class="ls">
     <Flashcard :card="currentCard" />
     <div class="button-container">
       <button @click="prevCard" :disabled="currentIndex === 0">Prev</button>
@@ -53,13 +53,18 @@ export default {
   margin-top: 20px;
 }
 button {
+  font-family: "Roboto";
   padding: 10px 20px;
   border: 1px solid #ddd;
-  background-color: #13ce66;
-  color: #fff;
+  background-color: #fbeec1;
+  color: #000;
   border-radius: 4px;
   font-size: 14px;
   font-family: "Roboto";
   cursor: pointer;
+  margin-right: 5px;
+}
+button:disabled {
+  background-color: #fbeec165;
 }
 </style>

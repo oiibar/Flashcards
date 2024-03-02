@@ -59,12 +59,12 @@ export default {
 
 .front {
   transform: rotateY(0deg);
-  background-color: #db4d52;
+  background-color: #daad86;
 }
 
 .back {
   transform: rotateY(180deg);
-  background-color: #49b0e4;
+  background-color: #daad86;
 }
 
 .flipped {

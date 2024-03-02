@@ -33,6 +33,10 @@ export default {
 <style scoped>
 .flashcard {
   perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .card {
@@ -50,14 +54,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
 }
 
 .front {
   transform: rotateY(0deg);
+  background-color: #db4d52;
 }
 
 .back {
   transform: rotateY(180deg);
+  background-color: #49b0e4;
 }
 
 .flipped {

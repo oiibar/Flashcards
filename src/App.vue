@@ -1,6 +1,6 @@
 <!-- src/views/Home.vue -->
 <template>
-  <div>
+  <div class="wrapper">
     <h1>Flashcards App</h1>
     <FlashcardsList :cards="cards" />
   </div>
@@ -16,18 +16,45 @@ export default {
   data() {
     return {
       cards: [
-        { question: "What is the capital of France?", answer: "Paris" },
         {
-          question: "Who wrote Romeo and Juliet?",
-          answer: "William Shakespeare",
+          question: "ReactJS",
+          answer:
+            "This is a JavaScript (user-interface framework) library developed by engineers at Facebook.",
         },
         {
-          question: "Almaty or Oskemen",
-          answer: "Oskemen",
+          question: "JSX",
+          answer:
+            "This is an HTML-like syntax extension for JavaScript written to be used with React. This is specifically how React adds XML syntax to JavaScript which is compiled to JavaScript at runtime.",
         },
-        // Add more flashcards as needed
+        {
+          question: "JSX element",
+          answer:
+            "A basic unit of JSX found in a JavaScript file which is treated as, and has the functionality of, a JavaScript expression. It can also have attributes, just like HTML elements.",
+        },
+        {
+          question: "If a JSX expression takes up more than one line",
+          answer: "you must wrap the multi-line expression in parentheses.",
+        },
+        {
+          question: "ReactDOM",
+          answer:
+            "This is a JavaScript library that contains several React-specific methods, all of which deal with the DOM in some way or another.",
+        },
+        {
+          question:
+            "Can component names start with a lowercase letter and why or why not?",
+          answer:
+            "No. Always start component names with a capital letter. React treats components starting with lowercase letters as DOM tags.",
+        },
       ],
     };
   },
 };
 </script>
+
+<style scoped>
+.wrapper {
+  font-family: "Roboto";
+  text-align: center;
+}
+</style>

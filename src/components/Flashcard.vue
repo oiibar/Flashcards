@@ -6,7 +6,7 @@
         <h3>{{ card.question }}</h3>
       </div>
       <div class="card-content back">
-        <p>{{ card.answer }}</p>
+        <p class="answer">{{ card.answer }}</p>
       </div>
     </div>
   </div>
@@ -35,13 +35,13 @@ export default {
   perspective: 1000px;
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
 }
 
 .card {
-  width: 200px;
-  height: 300px;
+  width: 90%;
+  height: 90vh;
+  margin: 5vh auto;
   transform-style: preserve-3d;
   transition: transform 0.5s;
 }
@@ -59,12 +59,17 @@ export default {
 
 .front {
   transform: rotateY(0deg);
-  background-color: #daad86;
+  background-color: #bc986a;
 }
 
 .back {
   transform: rotateY(180deg);
   background-color: #daad86;
+}
+
+.answer {
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .flipped {

@@ -51,9 +51,9 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  font-family: "Roboto";
 }
 button {
-  font-family: "Roboto";
   padding: 10px 20px;
   border: 1px solid #ddd;
   background-color: #fbeec1;

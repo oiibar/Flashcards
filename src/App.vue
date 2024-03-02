@@ -53,11 +53,19 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  color: #fff;
-}
 .wrapper {
   font-family: "Roboto";
   text-align: center;
+  background-color: #659dbd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #fff;
+}
+
+button {
+  margin: 0 10px;
 }
 </style>

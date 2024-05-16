@@ -21,19 +21,13 @@ Here're some of the project's best features:
 git clone https://github.com/oiibar/Flashcards.git
 ```
 
-<p>2. Navigate to the client folder</p>
-
-```
-cd Flashcards/client
-```
-
-<p>3. Install client-side packages</p>
+<p>2. Install client-side packages</p>
 
 ```
 npm i
 ```
 
-<p>4. Run the client</p>
+<p>3. Run the client</p>
 
 ```
 npm run dev

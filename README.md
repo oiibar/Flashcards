@@ -1,40 +1,54 @@
-# Flashcards
+<h1 align="center" id="title">Url Shortener</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center"><img src="https://socialify.git.ci/oiibar/Flashcards/image?language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Light" alt="project-image"></p>
 
-## Recommended IDE Setup
+<p id="description">This is a budget manager app with full user authentication and user friendly UI/UX</p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+  
+  
+<h2>🧐 Features</h2>
 
-## Type Support for `.vue` Imports in TS
+Here're some of the project's best features:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+*   Minimalistic client side
+*   Learning flashcards
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+<h2>🛠️ Installation Steps:</h2>
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+<p>1. Clone the project</p>
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+git clone https://github.com/oiibar/Flashcards.git
 ```
 
-### Compile and Hot-Reload for Development
+<p>2. Navigate to the client folder</p>
 
-```sh
+```
+cd Flashcards/client
+```
+
+<p>3. Install client-side packages</p>
+
+```
+npm i
+```
+
+<p>4. Run the client</p>
+
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+  
+<h2>💻 Built with</h2>
 
-```sh
-npm run build
-```
+Technologies used in the project:
+
+*   VueJS
+*   TailwindCSS
+*   Vite
+
+
+<h2>💖Like my work?</h2>
+
+Feel free to contact me<p><a href="contact-me-neon.vercel.app">contact-me-neon.vercel.app</a></p>
